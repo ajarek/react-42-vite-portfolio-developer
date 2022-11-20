@@ -1,0 +1,17 @@
+.all-socials{
+  width: 34%;
+  background-image: url(/public/profil.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.all-socials .social{
+  margin-right: 1rem;
+}
+.all-socials .social a{
+  color: aliceblue;
+  font-size: 1.5rem;
+
+}
