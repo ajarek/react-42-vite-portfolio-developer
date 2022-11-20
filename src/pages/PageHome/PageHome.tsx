@@ -14,24 +14,24 @@ export const PageHome = () => {
         experience={'4'}
         />
         <Technology
-        name={'HTML'}
+        name={'CSS'}
         experience={'4'}
         />
         <Technology
-        name={'HTML'}
-        experience={'4'}
+        name={'JavaScript/TS'}
+        experience={'3'}
         />
         <Technology
-        name={'HTML'}
-        experience={'4'}
+        name={'React'}
+        experience={'3'}
         />
         <Technology
-        name={'HTML'}
-        experience={'4'}
+        name={'NodeJS'}
+        experience={'2'}
         />
         <Technology
-        name={'HTML'}
-        experience={'4'}
+        name={'Database: Rel/noRel'}
+        experience={'2'}
         />
       </section>
     </div>
