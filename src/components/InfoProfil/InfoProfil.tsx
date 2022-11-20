@@ -11,7 +11,7 @@ const InfoProfil = () => {
       passionate about building accessible web apps<br />
       that users love</p>
       </div>
-      <div className="wrapper-info-profil tel"><FaPhoneAlt/>  <p>573219230</p></div>
+      <div className="wrapper-info-profil tel"><FaPhoneAlt/>  <a href='tel:+48573219230'>+48 573219230</a></div>
     </div>
   )
 }

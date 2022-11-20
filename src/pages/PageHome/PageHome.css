@@ -3,12 +3,18 @@
   height: 90vh;
   margin-top: 10vh;
   padding:  2rem 5rem;
-  border: solid;
 }
 .home header{
-  height: 45vh;
+  height: 40vh;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   border-bottom: 1px solid gray;
+}
+.home section{
+  height: 45vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3 ,1fr );
+  grid-template-rows: repeat(2 ,1fr);
 }

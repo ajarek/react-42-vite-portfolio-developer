@@ -12,6 +12,9 @@
 }
 .all-socials .social a{
   color: aliceblue;
-  font-size: 1.5rem;
-
+  font-size: 2rem;
+  transition: color 0.3s ease-in-out;
+}
+.all-socials .social a:hover{
+  color: #11cc55;
 }
