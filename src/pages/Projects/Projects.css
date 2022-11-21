@@ -1,0 +1,13 @@
+.projects{
+  margin-top: 10vh;
+  padding-bottom:2rem ;
+}
+.projects h1{
+  margin-bottom: 1rem;
+}
+.projects-wrapper{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}

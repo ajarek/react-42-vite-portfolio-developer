@@ -1,0 +1,14 @@
+.card-project{
+  padding: 0.5rem;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-shadow:0 0 5px 0 rgba(255,255,255,.4) inset, 0 5px 10px 5px rgba(255,255,255,.4);
+}
+
+.card-project img{
+  width: 100%;
+  object-fit: cover;
+}

@@ -12,6 +12,7 @@ body{
   justify-content: center;
   align-items: center;
   font-family: 'Barlow', sans-serif;
+  background-color: darkgrey;
 }
 .App{
   max-width: 1280px;
