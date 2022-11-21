@@ -30,7 +30,7 @@ export const PageHome = () => {
         experience={'2'}
         />
         <Technology
-        name={'Database: Rel/noRel'}
+        name={'Database: Rel./noRel.'}
         experience={'2'}
         />
       </section>
