@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Navigation.css'
 import { NavLink } from 'react-router-dom'
+import Hamburger from 'hamburger-react'
 const Navigation = () => {
+  const [isOpen, setOpen] = useState(false)
   return (
     <nav className={'nav'}>
       <a
@@ -15,7 +17,7 @@ const Navigation = () => {
           />@jarek
         </div>
       </a>
-      <div className={'wrapper'}>
+      <ul className={!isOpen?'wrapper':'wrapper navbar-none'}>
         <NavLink
           className={'link'}
           to='/'
@@ -34,6 +36,25 @@ const Navigation = () => {
         >
           Contact
         </NavLink>
+      </ul>
+      <div className="hamburger">
+      <Hamburger
+      size={30}
+      duration={0.3}
+      distance="md"
+      color={isOpen?"#f15e50":'#808080'}
+      easing="ease-in"
+      rounded 
+      label="Show menu"
+      onToggle={toggled => {
+        setOpen(true)
+        if (toggled) {
+           // open a menu
+        } else {
+          setOpen(false)
+        }
+      }}
+      />
       </div>
     </nav>
   )
