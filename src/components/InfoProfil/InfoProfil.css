@@ -38,3 +38,11 @@
 .info-profil p {
   font-size: 1.1rem;
 }
+@media (max-width:768px) {
+  .info-profil,.wrapper-info-profil {
+    width: 100%;
+  }
+  .wrapper-info-profil.tel,.info-profil h1,.wrapper-info-profil.tel a {
+    font-size: 1.2rem;
+  }
+}

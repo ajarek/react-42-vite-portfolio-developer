@@ -1,20 +1,42 @@
 .home{
-  width: 100%;
+  width: 100vw;
   height: 90vh;
   margin-top: 10vh;
-  padding:  2rem 5rem;
+  padding:  1rem 5rem;
+  
 }
 .home header{
-  height: 40vh;
+  height: 50vh;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   border-bottom: 1px solid gray;
 }
 .home section{
-  height: 45vh;
+  height: 35vh;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3 ,1fr );
   grid-template-rows: repeat(2 ,1fr);
+}
+@media (max-width:768px) {
+  .home{
+    padding: 2rem 1rem;
+  }
+  .home header{
+    flex-direction: column-reverse;
+    height: auto;
+    justify-content: flex-end;
+  }
+  .home section{
+    height: auto;
+    grid-template-columns: repeat(2 ,1fr );
+  grid-template-rows: repeat(3 ,1fr);
+  }
+}
+@media (max-width:600px) {
+  .home section{
+  grid-template-columns: repeat(1 ,1fr );
+  grid-template-rows: repeat(4 ,1fr);
+  }
 }

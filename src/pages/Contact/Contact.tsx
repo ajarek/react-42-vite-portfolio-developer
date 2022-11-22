@@ -1,5 +1,5 @@
-import { FaGithub,FaTwitter,FaLinkedinIn,FaFacebook} from 'react-icons/fa';
-import {Form} from '../../components/Form/Form'
+import { FaGithub, FaTwitter, FaLinkedinIn, FaFacebook } from 'react-icons/fa'
+import { Form } from '../../components/Form/Form'
 import './Contact.css'
 export const Contact = () => {
   return (
@@ -12,7 +12,9 @@ export const Contact = () => {
           <br /> to you as soon possible.
         </p>
       </div>
-      <div className='right-wrapper'><Form/></div>
+      <div className='right-wrapper'>
+        <Form />
+      </div>
       <div className='footer'>
         <a
           className={'link'}
@@ -25,13 +27,29 @@ export const Contact = () => {
             />
             @jarek
           </div>
-        </a> 
+        </a>
         <div className='socials'>
-    <div className="social"><a href="#"><FaGithub /></a></div>
-    <div className="social"><a href="#"><FaFacebook/></a></div>
-    <div className="social"><a href="#"><FaLinkedinIn/></a></div>
-    <div className="social"><a href="#"><FaTwitter/></a></div>
-   </div>
+          <div className='social'>
+            <a href='#'>
+              <FaGithub />
+            </a>
+          </div>
+          <div className='social'>
+            <a href='#'>
+              <FaFacebook />
+            </a>
+          </div>
+          <div className='social'>
+            <a href='#'>
+              <FaLinkedinIn />
+            </a>
+          </div>
+          <div className='social'>
+            <a href='#'>
+              <FaTwitter />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   )
