@@ -1,41 +1,41 @@
 [{
   "id": 1,
-  "src": "/public/images/allblogs.png",
+  "src": "public/images/allblogs.png",
   "title": "Blog",
   "technology":"HTML, CSS, JS, Express, MongoDb",
   "path":"https://blog-news-poland.herokuapp.com"
 },
 {
   "id": 2,
-  "src": "/public/images/apartments.png",
+  "src": "public/images/apartments.png",
   "title": "Apartments",
   "technology":"HTML, CSS, JS",
   "path":"https://ajarek.github.io/Apartment"
 },
 {
   "id": 3,
-  "src": "/public/images/blog.png",
+  "src": "public/images/blog.png",
   "title": "New Blog",
   "technology":"HTML, CSS, JS, Express, MongoDb",
   "path":"https://create-blogs.herokuapp.com"
 },
 {
   "id": 4,
-  "src": "/public/images/budget.png",
+  "src": "public/images/budget.png",
   "title": "Budget",
   "technology":"HTML, CSS, JS, Express, MongoDb",
   "path":"https://now-budget.herokuapp.com"
 },
 {
   "id": 5,
-  "src": "/public/images/media.png",
+  "src": "public/images/media.png",
   "title": "Media Story",
   "technology":"HTML, CSS, JS, Express, MongoDb",
   "path":"https://store-media.herokuapp.com"
 },
 {
   "id": 6,
-  "src": "/public/images/rolex.png",
+  "src": "public/images/rolex.png",
   "title": "Rolex Store",
   "technology":"HTML, CSS, JS",
   "path":"https://ajarek.github.io/rolex"
