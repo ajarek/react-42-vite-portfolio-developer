@@ -22,7 +22,7 @@ export const Contact = () => {
         >
           <div className='logo'>
             <img
-              src='/public/my-logo.png'
+              src='public/my-logo.png'
               alt='logo'
             />
             @jarek
