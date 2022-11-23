@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './Navigation.css'
 import { NavLink } from 'react-router-dom'
 import Hamburger from 'hamburger-react'
@@ -14,10 +14,11 @@ const Navigation = () => {
           <img
             src='/public/my-logo.png'
             alt='logo'
-          />@jarek
+          />
+          @jarek
         </div>
       </a>
-      <ul className={!isOpen?'wrapper':'wrapper navbar-none'}>
+      <ul className={!isOpen ? 'wrapper' : 'wrapper navbar-none'}>
         <NavLink
           className={'link'}
           to='/'
@@ -37,24 +38,24 @@ const Navigation = () => {
           Contact
         </NavLink>
       </ul>
-      <div className="hamburger">
-      <Hamburger
-      size={30}
-      duration={0.3}
-      distance="md"
-      color={isOpen?"#f15e50":'#808080'}
-      easing="ease-in"
-      rounded 
-      label="Show menu"
-      onToggle={toggled => {
-        setOpen(true)
-        if (toggled) {
-           // open a menu
-        } else {
-          setOpen(false)
-        }
-      }}
-      />
+      <div className='hamburger'>
+        <Hamburger
+          size={30}
+          duration={0.3}
+          distance='md'
+          color={isOpen ? '#f15e50' : '#808080'}
+          easing='ease-in'
+          rounded
+          label='Show menu'
+          onToggle={(toggled) => {
+            setOpen(true)
+            if (toggled) {
+              // open a menu
+            } else {
+              setOpen(false)
+            }
+          }}
+        />
       </div>
     </nav>
   )

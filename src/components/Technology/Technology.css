@@ -1,11 +1,11 @@
-.technology{
+.technology {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
 }
-.technology h1{
- margin-block-start: 0;
- margin-block-end: 0;
- margin-bottom: 5px;
+.technology h1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-bottom: 5px;
 }

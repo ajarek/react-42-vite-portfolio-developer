@@ -1,4 +1,4 @@
-.profil{
+.profil {
   width: 34%;
   display: flex;
   flex-direction: column;
@@ -6,25 +6,23 @@
   align-items: center;
 }
 .all-socials {
- width: 100%;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
 }
 
 .profil .img {
- width: 100%;
- height: 100%;
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
-.profil .img img{
+.profil .img img {
   height: 100%;
   object-fit: cover;
 }
- 
 
 .all-socials .social {
   margin-right: 1rem;
@@ -37,8 +35,8 @@
 .all-socials .social a:hover {
   color: #11cc55;
 }
-@media (max-width:768px) {
-  .profil{
+@media (max-width: 768px) {
+  .profil {
     width: 100%;
   }
 }

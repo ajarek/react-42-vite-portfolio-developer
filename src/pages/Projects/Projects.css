@@ -1,19 +1,21 @@
-.projects{
+.projects {
   margin-top: 10vh;
-  padding:2rem 1rem ;
+  padding: 2rem 1rem;
   width: 100%;
 }
-.projects h1{
+.projects h1 {
   margin-bottom: 1rem;
+  text-align: center;
 }
-.projects-wrapper{
+.projects-wrapper {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 5rem;
+  gap: 4rem;
+  place-items: center;
 }
-@media (max-width:600px) {
-  .projects-wrapper{
-  grid-template-columns: repeat(1, 1fr);
+@media (max-width: 600px) {
+  .projects-wrapper {
+    grid-template-columns: repeat(1, 1fr);
   }
 }

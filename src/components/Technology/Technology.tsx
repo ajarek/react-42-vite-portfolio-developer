@@ -6,11 +6,11 @@ type Props = {
   experience: string
 }
 
-const Technology = ({name,experience}:Props) => {
+const Technology = ({ name, experience }: Props) => {
   return (
     <div className='technology'>
-      <h1 >{name}</h1>
-      <p >{experience} Years Experience</p>
+      <h1>{name}</h1>
+      <p>{experience} Years Experience</p>
     </div>
   )
 }
