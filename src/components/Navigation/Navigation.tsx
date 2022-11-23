@@ -12,7 +12,7 @@ const Navigation = () => {
       >
         <div className='logo'>
           <img
-            src='public/my-logo.png'
+            src='my-logo.png'
             alt='logo'
           />
           @jarek
